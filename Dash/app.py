@@ -86,17 +86,49 @@ def create_slider_marks(values):
     return marks
 
 # Graphs
-histogram = px.histogram(test, x='Probability', color=TARGET, 
-                         marginal="box", nbins=30)
-barplot = px.bar(test.groupby('Binned probability', 
-                              as_index=False)['Target'].mean(), 
-                 x='Binned probability', y='Target')
+histogram = px.histogram(
+    test, x='Probability', color=TARGET, marginal="box", nbins=30, opacity=0.6,
+    color_discrete_sequence=['#FFBD59', '#3BA27A']
+    )
+histogram.update_layout(
+    title_text=f'Distribution of probabilities by class (n={len(test)})', 
+    font_family='Tahoma', 
+    plot_bgcolor='rgba(255,242,204,100)'
+    )
+histogram.update_yaxes(title_text="Count")
+
+barplot = px.bar(
+    test.groupby('Binned probability', as_index=False)['Target'].mean(),
+    x='Binned probability', y='Target',
+    color_discrete_sequence=['#3BA27A']
+    )
+barplot.update_layout(
+    title_text=f'Survival rate by binned probabilities (n={len(test)})', 
+    font_family='Tahoma', xaxis = {'categoryarray': labels}, 
+    plot_bgcolor='rgba(255,242,204,100)'
+    )
+barplot.update_yaxes(title_text="Percentage survived")
+
 columns = ['Age', 'Gender', 'Class', 'Embark town', TARGET, 
            'Probability']
-table = go.Figure(data=[go.Table(
-    header=dict(values=columns),
-    cells=dict(values=[test[c] for c in columns])
-)])
+
+table = go.Figure(
+    data=[
+        go.Table(
+            header=dict(values=columns, fill_color='#FFBD59', 
+            line_color='white', align='center',
+            font=dict(color='white', size=13)),
+            cells=dict(values=[test[c] for c in columns], 
+            format=["d", "", "", "", "", ".2%"],
+            fill_color=[['white', '#FFF2CC']*(len(test)-1)], 
+            align='center')
+            )
+        ]
+    )
+table.update_layout(
+    title_text=f'Sample records (n={len(test)})', 
+    font_family='Tahoma'
+    )
 
 # ********************* Dash app *********************
 app = dash.Dash(__name__)
@@ -122,7 +154,7 @@ app.layout = html.Div([
                 options=create_dropdown_options(test['Gender']),
                 value=create_dropdown_value(test['Gender'])
             ),
-            html.Button(id='update-button', children="Update")
+            html.Button(id='update-button', children="Update", n_clicks=0)
         ], id='left-container'
     ),
     html.Div(
@@ -139,9 +171,19 @@ app.layout = html.Div([
                     html.Div(
                         [
                             html.Label("Survival status", className='other-labels'), 
-                            daq.BooleanSwitch(id='target_toggle', className='toggle', on=True),
+                            daq.BooleanSwitch(
+                                id='target_toggle',
+                                className='toggle', 
+                                on=True, 
+                                color="#FFBD59"
+                                ),
                             html.Label("Sort probability in an ascending order", className='other-labels'),
-                            daq.BooleanSwitch(id='sort_toggle', className='toggle', on=True),
+                            daq.BooleanSwitch(
+                                id='sort_toggle', 
+                                className='toggle', 
+                                on=True,
+                                color="#FFBD59"
+                                ),
                             html.Label("Number of records", className='other-labels'), 
                             dcc.Slider(
                                 id='n-slider',
@@ -155,6 +197,89 @@ app.layout = html.Div([
         ], id='right-container'
     )
 ], id='container')
+
+@app.callback(
+    Output(component_id='histogram', component_property='figure'),
+    Output(component_id='barplot', component_property='figure'),
+    Output(component_id='table', component_property='figure'),
+    State(component_id='class-dropdown', component_property='value'),
+    State(component_id='gender-dropdown', component_property='value'),
+    Input(component_id='update-button', component_property='n_clicks'),
+    Input(component_id='target_toggle', component_property='on'),
+    Input(component_id='sort_toggle', component_property='on'),
+    Input(component_id='n-slider', component_property='value')
+)
+def update_output(class_value, gender_value, n_clicks, target, ascending, n):
+    # Update data to dropdown values without overwriting test
+    dff = test.copy()
+
+    if n_clicks>0:
+        if len(class_value)>0:
+            dff = dff[dff['Class'].isin(class_value)]
+        elif len(class_value)==0:
+            raise dash.exceptions.PreventUpdate
+        
+        if len(gender_value)>0:
+            dff = dff[dff['Gender'].isin(gender_value)]
+        elif len(gender_value)==0:
+            raise dash.exceptions.PreventUpdate
+
+    # Visual 1: Histogram
+    histogram = px.histogram(
+        dff, x='Probability', color=TARGET, marginal="box", 
+        nbins=30, opacity=0.6,  
+        color_discrete_sequence=['#FFBD59', '#3BA27A']
+    )
+    histogram.update_layout(
+        title_text=f'Distribution of probabilities by class (n={len(dff)})',
+        font_family='Tahoma', plot_bgcolor='rgba(255,242,204,100)'
+    )
+    histogram.update_yaxes(title_text="Count")
+    # Visual 2: Barplot
+    barplot = px.bar(
+        dff.groupby('Binned probability', as_index=False)['Target'].mean(), 
+        x='Binned probability', y='Target', 
+        color_discrete_sequence=['#3BA27A']
+    )
+    barplot.update_layout(
+        title_text=f'Survival rate by binned probabilities (n={len(dff)})', 
+        font_family='Tahoma', xaxis = {'categoryarray': labels}, 
+        plot_bgcolor='rgba(255,242,204,100)'
+    )
+    barplot.update_yaxes(title_text="Percentage survived")
+    # Visual 3: Table
+    if target == True:
+        dff = dff[dff['Target'] == 1]
+    else:
+        dff = dff[dff['Target'] == 0]
+    
+    dff = dff.sort_values('Probability', ascending=ascending).head(n)
+
+    columns = ['Age', 'Gender', 'Class', 'Embark town', TARGET, 'Probability']
+    table = go.Figure(
+        data=[
+            go.Table(
+                header=dict(
+                    values=columns, fill_color='#FFBD59',
+                    line_color='white', 
+                    align='center',
+                    font=dict(color='white', size=13)
+                    ),
+                cells=dict(
+                    values=[dff[c] for c in columns], 
+                    format=["d", "", "", "", "", ".2%"],
+                    fill_color=[['white', '#FFF2CC']*(len(dff)-1)], 
+                    align='center'
+                    )
+                )
+            ]
+        )
+    table.update_layout(
+        title_text=f'Sample records (n={len(dff)})', 
+        font_family='Tahoma'
+    )
+    
+    return histogram, barplot, table
 
 if __name__ == '__main__':
     app.run_server(debug=True)
