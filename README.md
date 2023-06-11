@@ -1,2 +1,2 @@
-# personal_repo
+# Personal Collections of Data Science Libraries
 practices, tests, etc...
