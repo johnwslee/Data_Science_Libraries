@@ -66,5 +66,5 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 ### 11. Web Scraping
 &emsp; - [BeutifulSoup/Selenium/Wordcloud](https://github.com/johnwslee/Data_Science_Libraries/tree/main/web_scraping)
 
-### 12. ChatGPT related
-&emsp; - [Jupyter_AI](https://github.com/johnwslee/Data_Science_Libraries/tree/main/ChatGPT%20related)
+### 12. Large Language Models
+&emsp; - [GPT_applications](https://github.com/johnwslee/Data_Science_Libraries/tree/main/GPT_application)
