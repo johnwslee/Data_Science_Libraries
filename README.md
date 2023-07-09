@@ -1,5 +1,7 @@
 # Personal Collections of Data Science Libraries
 
+This repository comprises Jupyter notebooks containing various Python libraries that I found very useful for data science. Most of the code was collected from articles on [Medium](https://medium.com/), an online publishing platform, for the purpose of personal study and practice. In some cases, the code was modified by myself to ensure that it actually works.
+
 ## List of Libraries
 (Last Updated: July 9th, 2023)
 
