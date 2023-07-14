@@ -14,7 +14,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 &emsp;&emsp; - [Pandas](https://github.com/johnwslee/Data_Science_Libraries/tree/main/pandas), [NumPy](https://github.com/johnwslee/Data_Science_Libraries/tree/main/NumPy), [FiftyOne](https://github.com/johnwslee/Data_Science_Libraries/tree/main/FiftyOne), [PySpark](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PySpark), [Upgini](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Upgini), [Synthetic Dataset](https://github.com/johnwslee/Data_Science_Libraries/tree/main/synthetic_dataset)
 
 #### &emsp; 2.2. Data Visalization 
-&emsp;&emsp; - [Sweetviz](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Sweetviz), [Matplotlib/Plotly/Seaborn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/data_visualization)
+&emsp;&emsp; - [Sweetviz](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Sweetviz), [Matplotlib/Plotly/Seaborn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/data_visualization), [PyGWalker](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyGWalker)
 
 #### &emsp; 2.3. Models and Algorithms
 &emsp;&emsp; - [scikit-learn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/scikit-learn), [Mahalanobis Distance](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Mahalanobis_distance), [Open3D](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Open3D), [PyMLPipe](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyMLPipe)
