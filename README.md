@@ -26,7 +26,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 #### &emsp; 3.1. Pytorch
 &emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/tutorials_and_practices)
 
-&emsp;&emsp; - CNN: [Binary Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/binary_classification), [1D/2D comparison](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/CNN_1d_to_2d_comparison), [Transfer Learning](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/CNN_with_transfer_learning), [Multi-Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_multi_classification), [Multi-Label Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_multi-label_classification), [Grad-CAM](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Grad-CAM)
+&emsp;&emsp; - CNN: [Binary Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/binary_classification), [1D/2D comparison](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/CNN_1d_to_2d_comparison), [Transfer Learning](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/CNN_with_transfer_learning), [Multi-Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_multi_classification), [Multi-Label Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_multi-label_classification)
 
 &emsp;&emsp; - Timeseries: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer)
 
@@ -48,7 +48,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 &emsp; - [Optuna](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Optuna)
 
 ### 8. Explainable AI
-&emsp; - [SHAP](https://github.com/johnwslee/Data_Science_Libraries/tree/main/SHAP)
+&emsp; - [SHAP](https://github.com/johnwslee/Data_Science_Libraries/tree/main/SHAP), [Grad-CAM](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Grad-CAM)
 
 ### 9. Low-Code Machine Learning
 &emsp; - [PyCaret](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyCaret)
