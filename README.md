@@ -55,7 +55,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 
 ### 10. Statistics
 #### &emsp; 10.1. General
-&emsp;&emsp;- [Distributions and Collinearity](https://github.com/johnwslee/Data_Science_Libraries/tree/main/statistics_related)
+&emsp;&emsp;- [Distributions and Collinearity](https://github.com/johnwslee/Data_Science_Libraries/tree/main/statistics_related), [Categorical Correlation](https://github.com/johnwslee/Data_Science_Libraries/blob/main/statistics_related/Medium_Search_for_Categorical_Correlation.ipynb)
 
 #### &emsp; 10.2. Bayesian Statistics
 &emsp;&emsp; - [PyMC](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyMC), [PyStan](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyStan)
