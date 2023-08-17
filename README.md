@@ -3,7 +3,6 @@
 This repository comprises Jupyter notebooks containing various Python libraries that I found very useful for data science. Most of the code was collected from articles on [Medium](https://medium.com/), an online publishing platform, for the purpose of personal study and practice. In some cases, the code was modified by myself to ensure that it actually works.
 
 ## List of Libraries
-(Last Updated: July 9th, 2023)
 
 ### 1. Python & Linux
 &emsp; - [General Tips](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Python), [PRegEx](https://github.com/johnwslee/Data_Science_Libraries/blob/main/PRegEx/PRegEx_test.ipynb), [Pathlib](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Pathlib), [PyCircular](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyCircular), [Decorators](https://github.com/johnwslee/Data_Science_Libraries/tree/main/decorators), [make & Makefile](https://github.com/johnwslee/Data_Science_Libraries/tree/main/make_and_Makefile)
