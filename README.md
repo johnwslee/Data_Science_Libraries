@@ -5,8 +5,8 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 ## List of Libraries
 (Last Updated: July 9th, 2023)
 
-### 1. Python
-&emsp; - [General Tips](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Python), [PRegEx](https://github.com/johnwslee/Data_Science_Libraries/blob/main/PRegEx/PRegEx_test.ipynb), [Pathlib](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Pathlib), [PyCircular](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyCircular), [Decorators](https://github.com/johnwslee/Data_Science_Libraries/tree/main/decorators)
+### 1. Python & Linux
+&emsp; - [General Tips](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Python), [PRegEx](https://github.com/johnwslee/Data_Science_Libraries/blob/main/PRegEx/PRegEx_test.ipynb), [Pathlib](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Pathlib), [PyCircular](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyCircular), [Decorators](https://github.com/johnwslee/Data_Science_Libraries/tree/main/decorators), [make & Makefile](https://github.com/johnwslee/Data_Science_Libraries/tree/main/make_and_Makefile)
 
 ### 2. Machine Learning
 
