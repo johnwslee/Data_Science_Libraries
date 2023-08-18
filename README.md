@@ -29,6 +29,8 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 
 &emsp;&emsp; - Timeseries: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer)
 
+&emsp;&emsp; - Differential Equation: [Implementation of DE in NN](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/differential_equations)
+
 &emsp;&emsp; - More Advanced: [Image Captioning](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_captioning), [Image Segmentation](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_segmentation), [Object Detection](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/object_detection), [DPDM](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/denoising_diffusion_probability_model)
 
 #### &emsp; 3.2. TensorFlow
