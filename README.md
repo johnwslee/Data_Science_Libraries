@@ -27,11 +27,11 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 
 &emsp;&emsp; - CNN: [Binary Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/binary_classification), [1D/2D comparison](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/CNN_1d_to_2d_comparison), [Transfer Learning](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/CNN_with_transfer_learning), [Multi-Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_multi_classification), [Multi-Label Classification](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_multi-label_classification)
 
-&emsp;&emsp; - Timeseries: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer)
+&emsp;&emsp; - Visions: [Image Captioning](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_captioning), [Image Segmentation](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_segmentation), [Object Detection](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/object_detection)
 
-&emsp;&emsp; - Physics Informed NN: [PINN](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/PINN)
+&emsp;&emsp; - Generative AI: [DPDM](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/denoising_diffusion_probability_model)
 
-&emsp;&emsp; - More Advanced: [Image Captioning](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_captioning), [Image Segmentation](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/image_segmentation), [Object Detection](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/object_detection), [DPDM](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/denoising_diffusion_probability_model)
+&emsp;&emsp; - Advanced Topics in Neural Network: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer), [Physics-Informed NN](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Physics_Informed_Neural_Network), [Graph Neural Network](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Graph_Neural_Network)
 
 #### &emsp; 3.2. TensorFlow
 &emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2)
