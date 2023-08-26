@@ -16,7 +16,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 &emsp;&emsp; - [Sweetviz](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Sweetviz), [Matplotlib/Plotly/Seaborn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/data_visualization), [PyGWalker](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyGWalker)
 
 #### &emsp; 2.3. Models and Algorithms
-&emsp;&emsp; - [scikit-learn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/scikit-learn), [Mahalanobis Distance](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Mahalanobis_distance), [Open3D](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Open3D), [PyMLPipe](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyMLPipe)
+&emsp;&emsp; - [scikit-learn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/scikit-learn), [Mahalanobis Distance](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Mahalanobis_distance), [Open3D](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Open3D), [PyMLPipe](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyMLPipe), [Reinforcement Learning](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Reinforcement_Learning)
 
 #### &emsp; 2.4. Web Apps
 &emsp;&emsp; - [Dash](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Dash), [Streamlit](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Datature_with_Streamlit), [Gradio](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Gradio), [Modelbit](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Modelbit), [PyScript](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyScript)
