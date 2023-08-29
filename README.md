@@ -34,7 +34,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 &emsp;&emsp; - Advanced Topics: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer), [Physics-Informed NN](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Physics_Informed_Neural_Network), [Graph Neural Network](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Graph_Neural_Network)
 
 #### &emsp; 3.2. TensorFlow
-&emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2), [TensorFlow](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2/TensorBoard)
+&emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2), [TensorBoard](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2/TensorBoard)
 
 ### 4. Models and Tools for Timeseries
 &emsp; - [Darts](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Darts), [tslearn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/tslearn)
