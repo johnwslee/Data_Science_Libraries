@@ -31,7 +31,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 
 &emsp;&emsp; - Generative AI: [DPDM](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/denoising_diffusion_probability_model)
 
-&emsp;&emsp; - Advanced Topics: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer), [Physics-Informed NN](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Physics_Informed_Neural_Network), [Graph Neural Network](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Graph_Neural_Network)
+&emsp;&emsp; - Advanced Topics: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer), [Physics-Informed NN](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Physics_Informed_Neural_Network), [Graph Neural Network](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Graph_Neural_Network), [Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Transformer)
 
 #### &emsp; 3.2. TensorFlow
 &emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2), [TensorBoard](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2/TensorBoard)
