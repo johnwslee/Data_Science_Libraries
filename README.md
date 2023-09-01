@@ -36,6 +36,9 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 #### &emsp; 3.2. TensorFlow
 &emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2), [TensorBoard](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2/TensorBoard)
 
+#### &emsp; 3.3. HuggingFace
+&emsp;&emsp; - [How to Use HuggingFace](https://github.com/johnwslee/Data_Science_Libraries/tree/main/HuggingFace)
+
 ### 4. Models and Tools for Timeseries
 &emsp; - [Darts](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Darts), [tslearn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/tslearn)
 
