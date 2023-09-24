@@ -34,7 +34,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 &emsp;&emsp; - Advanced Topics: [Temporal Fusion Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/temporal_fusion_transformer), [Physics-Informed NN](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Physics_Informed_Neural_Network), [Graph Neural Network](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Graph_Neural_Network), [Transformer](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyTorch/Transformer)
 
 #### &emsp; 3.2. TensorFlow
-&emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2), [TensorBoard](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2/TensorBoard)
+&emsp;&emsp; - [Basics](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2), [TensorBoard](https://github.com/johnwslee/Data_Science_Libraries/tree/main/TensorFlow2/TensorBoard), [Autoencoder](TensorFlow2/Medium_Anomaly_Detection_in_TF_Keras_Autoencoder.ipynb)
 
 #### &emsp; 3.3. HuggingFace
 &emsp;&emsp; - [How to Use HuggingFace](https://github.com/johnwslee/Data_Science_Libraries/tree/main/HuggingFace)
