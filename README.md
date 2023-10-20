@@ -5,7 +5,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 ## List of Libraries
 
 ### 1. Python & Linux
-&emsp; - [General Tips](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Python), [PRegEx](https://github.com/johnwslee/Data_Science_Libraries/blob/main/PRegEx/PRegEx_test.ipynb), [Pathlib](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Pathlib), [PyCircular](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyCircular), [Decorators](https://github.com/johnwslee/Data_Science_Libraries/tree/main/decorators), [make & Makefile](https://github.com/johnwslee/Data_Science_Libraries/tree/main/make_and_Makefile), [Watchdog](https://github.com/johnwslee/Data_Science_Libraries/tree/main/watchdog)
+&emsp; - [General Tips](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Python), [PRegEx](https://github.com/johnwslee/Data_Science_Libraries/blob/main/PRegEx/PRegEx_test.ipynb), [Pathlib](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Pathlib), [PyCircular](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyCircular), [Decorators](https://github.com/johnwslee/Data_Science_Libraries/tree/main/decorators), [OpenCV](https://github.com/johnwslee/Data_Science_Libraries/tree/main/OpenCV), [make & Makefile](https://github.com/johnwslee/Data_Science_Libraries/tree/main/make_and_Makefile), [Watchdog](https://github.com/johnwslee/Data_Science_Libraries/tree/main/watchdog)
 
 ### 2. Machine Learning
 
