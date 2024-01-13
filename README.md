@@ -62,7 +62,7 @@ This repository comprises Jupyter notebooks containing various Python libraries 
 &emsp;&emsp;- [Statistical Testing Flowchart](https://github.com/johnwslee/Data_Science_Libraries/blob/main/statistics_related/Statistical_Testing_Flowchart.ipynb), [Distributions and Collinearity](https://github.com/johnwslee/Data_Science_Libraries/tree/main/statistics_related), [Categorical Correlation](https://github.com/johnwslee/Data_Science_Libraries/blob/main/statistics_related/Medium_Search_for_Categorical_Correlation.ipynb), [A/B Testing with Resampling/Booststrapping](https://github.com/johnwslee/Data_Science_Libraries/blob/main/statistics_related/Medium_Statistical_Experiments_with_Resampling.ipynb), [Power Analysis](https://github.com/johnwslee/Data_Science_Libraries/blob/main/statistics_related/Medium_Introduction_to_Power_Analysis.ipynb)
 
 #### &emsp; 10.2. Bayesian Statistics
-&emsp;&emsp; - [PyMC](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyMC), [PyStan](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyStan)
+&emsp;&emsp; - [PyMC](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyMC), [PyStan](https://github.com/johnwslee/Data_Science_Libraries/tree/main/PyStan), [BNLearn](https://github.com/johnwslee/Data_Science_Libraries/blob/main/statistics_related/Medium_Chat_with_Your_Dataset_using_Bayesian_Inferences.ipynb)
 
 #### &emsp; 10.3. Markov Chain
 &emsp;&emsp; - [Markov Chain](https://github.com/johnwslee/Data_Science_Libraries/tree/main/Markov_chain), [hmmlearn](https://github.com/johnwslee/Data_Science_Libraries/tree/main/hmmlearn)
